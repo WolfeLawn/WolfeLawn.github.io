@@ -3,20 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #000;
     color: #fff;
     line-height: 1.6;
 }
+
 img {
     max-width: 100%;
     display: block;
 }
+
 a {
     text-decoration: none;
 }
+
 /* HEADER */
+
 header {
     background: #000;
     display: flex;
@@ -25,58 +30,78 @@ header {
     padding: 20px 40px;
     border-bottom: 2px solid #66cc33;
 }
+
 .logo img {
     max-height: 90px;
 }
+
 nav {
     display: flex;
     gap: 25px;
 }
+
 nav a {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
 }
+
 nav a:hover {
     color: #66cc33;
 }
+
 /* HERO */
+
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #000;
 }
+
 .hero-content {
     flex: 1;
     padding: 60px;
 }
+
 .hero-content h1 {
     font-size: 4rem;
     line-height: 1;
     margin-bottom: 20px;
 }
+
 .hero-content h2 {
     color: #66cc33;
+    margin-bottom: 10px;
+}
+
+.hero-content h3 {
+    color: #66cc33;
+    font-size: 1.6rem;
     margin-bottom: 20px;
 }
+
 .hero-content p {
     font-size: 1.2rem;
     max-width: 500px;
     margin-bottom: 30px;
 }
+
 .hero-image {
     flex: 1;
 }
+
 .hero-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .hero-buttons {
     display: flex;
     gap: 15px;
 }
+
 .btn-green {
     background: #66cc33;
     color: #000;
@@ -84,13 +109,16 @@ nav a:hover {
     font-weight: bold;
     border-radius: 5px;
 }
+
 .btn-outline {
     border: 2px solid #66cc33;
     color: white;
     padding: 12px 24px;
     border-radius: 5px;
 }
-/* ABOUT */
+
+/* ABOUT KEITH */
+
 .about {
     display: flex;
     align-items: center;
@@ -98,71 +126,100 @@ nav a:hover {
     padding: 80px 60px;
     background: #000;
 }
+
 .about-image img {
-    width: 320px;
-    height: 320px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     border: 4px solid #66cc33;
     object-fit: cover;
 }
+
+.about-text {
+    max-width: 700px;
+}
+
 .about-text h2 {
     color: #66cc33;
+    font-size: 2.8rem;
     margin-bottom: 20px;
-    font-size: 2.5rem;
 }
+
 .about-text p {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
+    font-size: 1.1rem;
 }
+
 /* SERVICES */
+
 #services {
-    background: white;
-    color: black;
+    background: #000;
+    color: white;
     padding: 80px 40px;
 }
+
 .section-title {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 50px;
+    color: #66cc33;
 }
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
+
 .service-card {
     text-align: center;
 }
+
 .service-card img {
-    width: 90px;
+    width: 100px;
     margin: 0 auto 20px;
 }
+
 .service-card h3 {
-    color: #2d7a1f;
+    color: #66cc33;
     margin-bottom: 15px;
+    font-size: 1.5rem;
 }
+
+.service-card p {
+    color: white;
+}
+
 /* SEASONAL */
+
 #seasonal {
     background: #000;
     padding: 80px 40px;
 }
+
 .seasonal-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
+
 .season-card {
     text-align: center;
 }
+
 .season-card img {
     width: 120px;
     margin: 0 auto 20px;
 }
+
 .fall h3 {
     color: #ff8c00;
 }
+
 .winter h3 {
     color: #4da6ff;
 }
+
 .availability {
     display: inline-block;
     margin-top: 15px;
@@ -170,81 +227,127 @@ nav a:hover {
     border-radius: 4px;
     font-weight: bold;
 }
+
 .fall .availability {
     border: 2px solid #ff8c00;
     color: #ff8c00;
 }
+
 .winter .availability {
     border: 2px solid #4da6ff;
     color: #4da6ff;
 }
-/* SERVING */
+
+/* PROUDLY SERVING */
+
 .serving {
-    background: white;
-    color: black;
+    background: #000;
+    color: white;
     text-align: center;
-    padding: 30px;
+    padding: 50px 20px;
+    border-top: 1px solid #222;
 }
+
 .serving h2 {
-    margin-bottom: 10px;
+    color: #66cc33;
+    margin-bottom: 15px;
 }
+
 /* CONTACT */
+
 .contact {
-    background: url("images/hero.jpg") center/cover;
+    background: #000;
     text-align: center;
     padding: 80px 20px;
+    border-top: 1px solid #222;
 }
+
 .contact h2 {
     font-size: 2.5rem;
-}
-.contact h3 {
-    font-size: 3rem;
     color: #66cc33;
 }
-.contact p {
-    font-size: 1.5rem;
+
+.contact h3 {
+    font-size: 3rem;
+    color: white;
     margin-top: 15px;
 }
+
+.contact p {
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
 /* FOOTER */
+
 footer {
     text-align: center;
     padding: 40px 20px;
     background: #000;
+    border-top: 2px solid #66cc33;
 }
+
 footer img {
     max-height: 90px;
     margin: 0 auto 20px;
 }
+
 footer p {
     margin-bottom: 8px;
 }
+
 /* MOBILE */
+
 @media (max-width: 900px) {
+
     header,
     .hero,
     .about {
         flex-direction: column;
         text-align: center;
     }
+
     .hero-content,
     .about {
         padding: 30px;
     }
+
     .hero-content h1 {
         font-size: 2.8rem;
     }
+
+    .hero-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .about-image img {
+        width: 220px;
+        height: 220px;
+    }
+
     .services-grid {
         grid-template-columns: 1fr;
     }
+
     .seasonal-grid {
         grid-template-columns: 1fr;
     }
+
     nav {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .hero-buttons {
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .section-title {
+        font-size: 2.3rem;
     }
 }
