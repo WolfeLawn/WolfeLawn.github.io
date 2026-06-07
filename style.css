@@ -301,13 +301,19 @@ footer p {
     margin-bottom: 8px;
 }
 
-footer a {
+footer a,
+footer a:visited,
+footer a:link {
     color: white;
     font-weight: bold;
 }
 
 footer a:hover {
     color: #66cc33;
+}
+
+footer a:active {
+    color: white;
 }
 
 /* MOBILE */
