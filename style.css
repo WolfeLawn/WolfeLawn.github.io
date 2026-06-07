@@ -246,7 +246,10 @@ nav a:hover {
     color: #66cc33;
     margin-bottom: 15px;
 }
-
+.serving .surrounding {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
 /* CONTACT */
 
 .contact {
