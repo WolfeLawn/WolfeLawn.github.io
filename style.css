@@ -250,6 +250,7 @@ nav a:hover {
     margin-top: 10px;
     font-size: 0.9rem;
 }
+
 /* CONTACT */
 
 .contact {
@@ -269,7 +270,14 @@ nav a:hover {
     color: #4da6ff;
     margin-top: 15px;
 }
+.contact h3 a {
+    color: #4da6ff;
+    font-weight: bold;
+}
 
+.contact h3 a:hover {
+    color: #66cc33;
+}
 .contact p {
     font-size: 1.4rem;
     margin-top: 15px;
