@@ -244,18 +244,18 @@ nav a:hover {
 
 .serving h2 {
     color: #66cc33;
-    margin-bottom: 20px;
-    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-size: 2rem;
 }
 
 .serving p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .serving .surrounding {
-    margin-top: 12px;
-    font-size: 1.2rem;
+    margin-top: 10px;
+    font-size: 0.9rem;
     font-weight: normal;
 }
 
@@ -390,4 +390,15 @@ footer a:active {
     .section-title {
         font-size: 2.3rem;
     }
+.serving h2 {
+    font-size: 2rem;
+}
+
+.serving p {
+    font-size: 1.2rem;
+}
+
+.serving .surrounding {
+    font-size: 0.9rem;
+}
 }
