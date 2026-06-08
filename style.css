@@ -244,11 +244,19 @@ nav a:hover {
 
 .serving h2 {
     color: #66cc33;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    font-size: 3rem;
 }
+
+.serving p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .serving .surrounding {
-    margin-top: 10px;
-    font-size: 0.9rem;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-weight: normal;
 }
 
 /* CONTACT */
