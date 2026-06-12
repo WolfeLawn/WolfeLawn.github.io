@@ -202,7 +202,7 @@ nav a:hover {
 }
 
 .season-card img {
-    width: 120px;
+    width: 135px;
     margin: 0 auto 20px;
 }
 
@@ -214,22 +214,20 @@ nav a:hover {
     color: #4da6ff;
 }
 
-.availability {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 8px 18px;
-    border-radius: 4px;
-    font-weight: bold;
+.gutter h3 {
+    color: #d2b48c;
 }
 
-.fall .availability {
-    border: 2px solid #ff8c00;
-    color: #ff8c00;
-}
-
-.winter .availability {
-    border: 2px solid #4da6ff;
+.storm h3 {
     color: #4da6ff;
+}
+.section-subtitle {
+    text-align: center;
+    color: #cccccc;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    font-style: italic;
 }
 
 /* PROUDLY SERVING */
